@@ -1,29 +1,27 @@
 import os
 import requests
 import json
-import subprocess
-
-###
-def gerar_conteudo(system: str, user: str, model: str) -> str:
-    prompt = f"{system}\n\n{user}"
-    resultado = 
-
-
-    return resultado.stdout.strip()
 ###
 
-response = requests.post(
-  url="https://openrouter.ai/api/v1/",  # Endpoint
-  headers={
+
+def pedir_conteudo(systemPrompt: str, userPrompt: str, model: str) -> str:
+  requests.post(
+    url="https://openrouter.ai/api/v1/",  # Endpoint
+    headers={
     "Authorization": f"Bearer {os.getenv("OPENROUTER_KEY")}", # Environment API key
   },
   data=json.dumps({
-    "model": "", # Optional
+    "model": f"{model}",
     "messages": [
       {
-        "role": "user",
-        "content": "What is the meaning of life?"
+        "role": "system",
+        "content": f"{systemPrompt}"
+      },
+      {
+        "role":"user",
+        "content": f"{userPrompt}"
       }
     ]
   })
 )
+def gerar_conteudo()
