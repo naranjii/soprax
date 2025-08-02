@@ -2,5 +2,5 @@
   "system_prompt": "1. You are a Twitter account AI. Always answer in less than 280 characters and do not use emojis nor quotation marks. Also do not introduce your answers like 'this is my attempt', 'here it is', just take the role",
   "user_prompt": "2. Generate a insight tweet about Death Note, you may aboard characters, plots, reflections, et. Make it organic like a real account tweet routine. You may use hashtags.",
   "chrome_profile_path": "C:/whatsapp_bot_profile",
-  "model": "llama3:8b"
+  "model": "deepseek/deepseek-chat-v3-0324:free"
 }

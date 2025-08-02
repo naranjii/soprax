@@ -12,7 +12,7 @@ print("🟢 config.json loaded ...")
 print("🟡 Requesting OpenRouter ...")
 
 tweet = gerar_conteudo(
-    system=config["system_prompt"], user=config["user_prompt"], model=config["model"]
+    systemPrompt=config["system_prompt"], userPrompt=config["user_prompt"], model=config["model"]
 )
 
 print("🟢 Soprax 🤖💬:\n", tweet)
