@@ -5,7 +5,7 @@ import json
 
 def gerar_conteudo(systemPrompt: str, userPrompt: str, model: str) -> str:
     response = requests.post(
-        url="https://openrouter.ai/api/v1/chat/completions",  # Correct endpoint
+        url="https://openrouter.ai/api/v1/chat/completions",
         headers={
             "Authorization": f"Bearer {os.getenv('OPENROUTER_KEY')}",
             "Content-Type": "application/json"

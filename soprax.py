@@ -1,7 +1,10 @@
+
 import json
 import os
+import random
 from src.ai.callOpenRouter import gerar_conteudo
 from src.selenium.tweet_sender import postar_tweet
+
 print("🟡 Starting Soprax.py ...")
 print("🟡 Loading config.json ...")
 
@@ -11,8 +14,10 @@ with open("config.json", "r", encoding="utf-8") as f:
 print("🟢 config.json loaded ...")
 print("🟡 Requesting OpenRouter ...")
 
+
+user_prompt = random.choice(config["affiliate_prompts"])
 tweet = gerar_conteudo(
-    systemPrompt=config["system_prompt"], userPrompt=config["user_prompt"], model=config["model"]
+    systemPrompt=config["system_prompt"], userPrompt=user_prompt, model=config["model"]
 )
 
 print("🟢 Soprax 🤖💬:\n", tweet)

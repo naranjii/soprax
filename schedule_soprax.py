@@ -2,7 +2,7 @@ import time
 import subprocess
 import sys
 
-TRATE = 6  # Set the interval in minutes
+TRATE = 45  # Set the interval in minutes
 
 print(f"[SCHEDULER] Running soprax.py every {TRATE} minutes. Press Ctrl+C to stop.")
 
