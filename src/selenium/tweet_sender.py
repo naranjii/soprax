@@ -13,7 +13,7 @@ def postar_tweet(text, chrome_profile_path):
     options.add_argument(
         f"--user-data-dir={chrome_profile_path}"
     )  # full path to the profile directory
-    options.add_argument("--headless=new")  # run in background if desired
+    # options.add_argument("--headless=new")  # run in background if desired
     options.add_argument("--disable-gpu")
     print("[DEBUG] Starting Chrome driver...")
     try:
@@ -29,7 +29,7 @@ def postar_tweet(text, chrome_profile_path):
             box = driver.find_element(By.XPATH, '//div[@aria-label="Post text"]')
         except Exception as e:
             print(f"[ERROR] Tweet text box not found: {e}")
-            driver.quit()
+            
             return
         # Remove surrounding double quotes if present
         if isinstance(text, str) and text.startswith('"') and text.endswith('"'):
@@ -41,7 +41,7 @@ def postar_tweet(text, chrome_profile_path):
             post = driver.find_element(By.XPATH, "//button[@data-testid='tweetButton']")
         except Exception as e:
             print(f"[ERROR] Post button not found: {e}")
-            driver.quit()
+            
             return
         print("[DEBUG] 🐦 Sollax tweets... ")
         driver.execute_script("arguments[0].click();", post)
@@ -50,4 +50,4 @@ def postar_tweet(text, chrome_profile_path):
         print(f"[ERROR] Unexpected error while sending tweet: {e}")
     finally:
         print("[DEBUG] Closing Chrome driver...")
-        driver.quit()
+        

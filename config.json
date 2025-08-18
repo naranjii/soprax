@@ -1,25 +1,24 @@
 {
   "model": "deepseek/deepseek-chat-v3-0324:free",
   "system_prompt": "1. Você é um robô do Twitter. Sempre responda em menos de 280 caracteres e nunca use emojis nem aspas. Não introduza suas respostas com 'minha tentativa é', 'aqui está', apenas assuma o papel direto. As respostas serão postadas diretamente em uma conta do twitter chamada AnimeDiver. Responda em Português - BR",  
-"affiliate_prompts": [
-  "Crie um tweet legal e na moda com muitas hashtags (mas lembre-se, sem emojis) sobre One Piece e inclua meu link de afiliado para Monkey D Luffy Funko Pop: https://amzn.to/4mhVvit",
-  "Crie um tweet legal e na moda com muitas hashtags (mas lembre-se, sem emojis) sobre Death Note e inclua meu link de afiliado para Death Note Notebook: https://amzn.to/4mpkuQe",
-  "Crie um tweet legal e na moda com muitas hashtags (mas lembre-se, sem emojis) sobre Jujutsu no Kaisen e inclua meu link de afiliado para Ryomen Funko Pop: https://amzn.to/3IWK3Kc",
-  "Crie um tweet legal e na moda com muitas hashtags (mas lembre-se, sem emojis) sobre Pokémon e inclua meu link de afiliado para Pokebola gigante de 300 peças: https://amzn.to/4mokeRz",
-  "Crie um tweet estiloso e cheio de hashtags (sem emojis) sobre cultura otaku e inclua meu link de afiliado para acessório orelha de coelho: https://amzn.to/4lbtWFT",
-  "Crie um tweet estiloso e divertido com várias hashtags (sem emojis) sobre festas temáticas e cultura cosplay e inclua meu link de afiliado para o kit com 12 orelhas de coelho: https://amzn.to/3UiNGMU",
-  "Crie um tweet descolado com várias hashtags (sem emojis) sobre Demon Slayer e acessórios de cosplay e inclua meu link de afiliado para os brincos do Tanjiro: https://amzn.to/40WbeuQ",
-  "Crie um tweet provocante e na moda com muitas hashtags (sem emojis) sobre cultura anime + moda alternativa e inclua meu link de afiliado para o conjunto de lingerie estilo anime: https://amzn.to/4m5Is3d",
-  "Crie um tweet sensual e divertido com várias hashtags (sem emojis) sobre cultura otaku e estética de anime e inclua meu link de afiliado para a roupinha sexy estilo maid: https://amzn.to/4olICoJ",
-  "Crie um tweet ousado e estiloso com várias hashtags (sem emojis) sobre cosplay e moda alternativa e inclua meu link de afiliado para o conjunto de vaquinha sexy: https://amzn.to/45aCGra",
-  "Crie um tweet criativo e engraçado com muitas hashtags (sem emojis) sobre memes e cultura cosplay e inclua meu link de afiliado para a fantasia da sacola azul meme: https://amzn.to/47iYxOu",
-  "Crie um tweet marcante e estiloso com várias hashtags (sem emojis) sobre cosplay de alta qualidade e cultura otaku e inclua meu link de afiliado para o cosplay sonho de consumo: https://amzn.to/4fLXOrD",
-  "Crie um tweet empolgante e atual com várias hashtags (sem emojis) sobre One Piece e inclua meu link de afiliado para o Funko Pop Luffy Gear 5: https://amzn.to/4fp9yjj",
-  "Crie um tweet épico e com muitas hashtags (sem emojis) sobre One Piece e colecionáveis e inclua meu link de afiliado para o action figure do Luffy aventureiro: https://amzn.to/46IUATb",
-  "Crie um tweet imersivo e estiloso com várias hashtags (sem emojis) sobre World of Warcraft e literatura gamer e inclua meu link de afiliado para o livro Illidan: https://amzn.to/3H27MrV",
-  "Crie um tweet estiloso e envolvente com várias hashtags (sem emojis) sobre League of Legends e cultura pop geek e inclua meu link de afiliado para o Funko Pop Viego: https://amzn.to/4lhA1k6",
-  "Crie um tweet estiloso e gamer com várias hashtags (sem emojis) sobre League of Legends e colecionáveis e inclua meu link de afiliado para o Funko Pop da Riven: https://amzn.to/4mudTnF"
+  "affiliate_prompts": [
+    "Crie um tweet legal e na moda com muitas hashtags (mas lembre-se, sem emojis) sobre One Piece e inclua meu link de afiliado para Monkey D Luffy Funko Pop: https://amzn.to/4mhVvit",
+    "Crie um tweet legal e na moda com muitas hashtags (mas lembre-se, sem emojis) sobre Death Note e inclua meu link de afiliado para Death Note Notebook: https://amzn.to/4mpkuQe",
+    "Crie um tweet legal e na moda com muitas hashtags (mas lembre-se, sem emojis) sobre Jujutsu no Kaisen e inclua meu link de afiliado para Ryomen Funko Pop: https://amzn.to/3IWK3Kc",
+    "Crie um tweet legal e na moda com muitas hashtags (mas lembre-se, sem emojis) sobre Pokémon e inclua meu link de afiliado para Pokebola gigante de 300 peças: https://amzn.to/4mokeRz",
+    "Crie um tweet estiloso e cheio de hashtags (sem emojis) sobre cultura otaku e inclua meu link de afiliado para acessório orelha de coelho: https://amzn.to/4lbtWFT",
+    "Crie um tweet estiloso e divertido com várias hashtags (sem emojis) sobre festas temáticas e cultura cosplay e inclua meu link de afiliado para o kit com 12 orelhas de coelho: https://amzn.to/3UiNGMU",
+    "Crie um tweet descolado com várias hashtags (sem emojis) sobre Demon Slayer e acessórios de cosplay e inclua meu link de afiliado para os brincos do Tanjiro: https://amzn.to/40WbeuQ",
+    "Crie um tweet provocante e na moda com muitas hashtags (sem emojis) sobre cultura anime + moda alternativa e inclua meu link de afiliado para o conjunto de lingerie estilo anime: https://amzn.to/4m5Is3d",
+    "Crie um tweet sensual e divertido com várias hashtags (sem emojis) sobre cultura otaku e estética de anime e inclua meu link de afiliado para a roupinha sexy estilo maid: https://amzn.to/4olICoJ",
+    "Crie um tweet ousado e estiloso com várias hashtags (sem emojis) sobre cosplay e moda alternativa e inclua meu link de afiliado para o conjunto de vaquinha sexy: https://amzn.to/45aCGra",
+    "Crie um tweet criativo e engraçado com muitas hashtags (sem emojis) sobre memes e cultura cosplay e inclua meu link de afiliado para a fantasia da sacola azul meme: https://amzn.to/47iYxOu",
+    "Crie um tweet marcante e estiloso com várias hashtags (sem emojis) sobre cosplay de alta qualidade e cultura otaku e inclua meu link de afiliado para o cosplay sonho de consumo: https://amzn.to/4fLXOrD",
+    "Crie um tweet empolgante e atual com várias hashtags (sem emojis) sobre One Piece e inclua meu link de afiliado para o Funko Pop Luffy Gear 5: https://amzn.to/4fp9yjj",
+    "Crie um tweet épico e com muitas hashtags (sem emojis) sobre One Piece e colecionáveis e inclua meu link de afiliado para o action figure do Luffy aventureiro: https://amzn.to/46IUATb",
+    "Crie um tweet imersivo e estiloso com várias hashtags (sem emojis) sobre World of Warcraft e literatura gamer e inclua meu link de afiliado para o livro Illidan: https://amzn.to/3H27MrV",
+    "Crie um tweet estiloso e envolvente com várias hashtags (sem emojis) sobre League of Legends e cultura pop geek e inclua meu link de afiliado para o Funko Pop Viego: https://amzn.to/4lhA1k6",
+    "Crie um tweet estiloso e gamer com várias hashtags (sem emojis) sobre League of Legends e colecionáveis e inclua meu link de afiliado para o Funko Pop da Riven: https://amzn.to/4mudTnF"
 ],
-  "chrome_profile_path": "C:/whatsapp_bot_profile"
-
+  "chrome_profile_path": "C:/users/marcello/dev/whatsapp_bot_profile"
 }
